@@ -24,7 +24,9 @@ Calculator:
 
 Fun:
 ----
+`s!cat` Returns a random cat image.  <br />
 `s!compliment` Returns a random compliment.  <br />
+`s!dog` Returns a random dog image (within an optional specified breed).  <br />
 `s!fact` Returns a random fun fact.  <br />
 `s!joke` Returns a random joke.  <br />
 
@@ -35,4 +37,4 @@ Tools:
 
 Built With:
 ============
-Python
+Python 3.8.5
