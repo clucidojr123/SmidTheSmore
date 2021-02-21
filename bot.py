@@ -10,6 +10,7 @@ from commands.fun import Fun
 load_dotenv()
 DISCORD_TOKEN = getenv('DISCORD_TOKEN')
 WEATHER_TOKEN = getenv('WEATHER_TOKEN')
+CAT_TOKEN = getenv('CAT_TOKEN')
 
 # Change only the no_category default string
 help_command = commands.DefaultHelpCommand(
@@ -39,7 +40,7 @@ async def on_command_error(ctx, error):
 
 # Add categories (along with their commands) to bot
 smid.add_cog(Calculator(smid))
-smid.add_cog(Fun(smid))
+smid.add_cog(Fun(smid, CAT_TOKEN))
 smid.add_cog(Tools(smid, WEATHER_TOKEN))
 
 # Launch bot
