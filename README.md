@@ -11,27 +11,27 @@ To run a command in a server, use `s!` command to call for Smid. For example, us
 
 Avaliable Commands
 ===================
-`s!help` Provides a list of avaliable commands .
-`s!help command` Provides more information on a command.
-`s!help category` Provides more information on a catergory.
+`s!help` Provides a list of avaliable commands . \n
+`s!help command` Provides more information on a command. \n
+`s!help category` Provides more information on a catergory. \n
 
 Calculator:
 -----------
-`s!add` Adds numbers together (separate numbers by spaces).
-`s!divide` Divides numbers together (separate numbers by spaces).
-`s!mult` Multiplys numbers together (separate numbers by spaces).
-`s!sub` Subtracts numbers (separate numbers by spaces).
+`s!add` Adds numbers together (separate numbers by spaces). \n
+`s!divide` Divides numbers together (separate numbers by spaces). \n
+`s!mult` Multiplys numbers together (separate numbers by spaces). \n
+`s!sub` Subtracts numbers (separate numbers by spaces). \n
 
 Fun:
 ----
-`s!compliment` Returns a random compliment.
-`s!fact` Returns a random fun fact.
-`s!joke` Returns a random joke.
+`s!compliment` Returns a random compliment. \n
+`s!fact` Returns a random fun fact. \n
+`s!joke` Returns a random joke. \n
 
 Tools:
 ------
-`s!dice` Rolls a user-input-sided dice (default 6 sides).
-`s!weather` Provides weather information about a certain area
+`s!dice` Rolls a user-input-sided dice (default 6 sides). \n
+`s!weather` Provides weather information about a certain area. \n
 
 Built With:
 ============
