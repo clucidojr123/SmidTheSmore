@@ -25,7 +25,7 @@ class Calculator(commands.Cog):
     
     @commands.command(aliases=['/', 'div', 'quotient'])
     async def divide(self, ctx, numerator : float, denominator : float):
-        """Divides numbers together (separate numbers by spaces)."""
+        """Divides two numbers."""
 
         # Return quotient unless denominator is 0
         if(denominator == 0):

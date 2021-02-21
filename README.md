@@ -18,9 +18,9 @@ Avaliable Commands
 Calculator:
 -----------
 `s!add` Adds numbers together (separate numbers by spaces).  <br />
-`s!divide` Divides numbers together (separate numbers by spaces).  <br />
-`s!mult` Multiplys numbers together (separate numbers by spaces).  <br />
 `s!sub` Subtracts numbers (separate numbers by spaces).  <br />
+`s!mult` Multiplys numbers together (separate numbers by spaces).  <br />
+`s!divide` Divides two numbers.  <br />
 
 Fun:
 ----
