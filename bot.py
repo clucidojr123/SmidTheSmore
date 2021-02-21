@@ -19,7 +19,7 @@ help_command = commands.DefaultHelpCommand(
 
 # Create bot instance
 smid = commands.Bot(command_prefix='s!', 
-                    description="Hi! My name is Smid. #Hackbeanpot2021!\nHere are my commands:",
+                    description="Hi! My name is Smid the S'more. #Hackbeanpot2021!\nHere are my commands:",
                     help_command=help_command)
 
 # Prints message after succesfully logging in, sets activity
