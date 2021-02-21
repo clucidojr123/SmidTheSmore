@@ -11,7 +11,7 @@ To run a command in a server, use `s!` command to call for Smid. For example, us
 
 Avaliable Commands
 ===================
-`s!help` Provides a list of avaliable commands.  return
+`s!help` Provides a list of avaliable commands.  <br />
 `s!help command` Provides more information on a command. 
 `s!help category` Provides more information on a catergory.
 
