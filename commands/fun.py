@@ -92,4 +92,15 @@ class Fun(commands.Cog):
             newEmbed.set_image(url=data[0]["url"])
             await ctx.reply(embed=newEmbed)
     
+    @commands.command(aliases=['pogchamp', 'pog'])
+    async def poggers(self, ctx):
+        """Returns a poggers gif."""
+        newEmbed = Embed(title="Pog", 
+                        color=0x964B00)
+        newEmbed.set_image(url="https://media1.tenor.com/images/b176db6a7358ea86acc241b3cfa45c3d/tenor.gif")
+        await ctx.reply(embed=newEmbed)
+        
+
+            
+    
         
